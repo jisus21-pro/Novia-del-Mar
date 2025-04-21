@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="menu-horizontal">
+            <li><a href="R_Peatonal.html" data-es="Inicio" data-en="Initiation"></a></li>
+            <li>
+                <a href="https://maps.app.goo.gl/gg2UT1W3gGgur3Y59" data-es="Visitar" data-en="Visit"></a>
+            </li>
+            <li>
+                <a href="#" data-es="Idioma" data-en="Lenguage"></a>
+                <ul class="menu-vertical">
+                    <li><button class="idioma1" onclick="cambiarIdioma('es')"></button>
+                        <span style="color: white;" data-es="Español" data-en="Spanish"></span>
+                    </li>
+                    <li><button class="idioma2" onclick="cambiarIdioma('en')"></button>
+                        <span style="color: white;" data-es="Ingles" data-en="English"></span>
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
+
+    </div><br><br><br>
+    <div class="logo">
+        <img src="img/Logos/Logo.inah.png" alt="Imagen">
+    </div>
+
+    <h1 class="tittle" data-es="Ex Aduana Marítima" data-en="Former Maritime Customs"></h1>
+
+    <button id="botonEscuchar" class="boton-escuchar" onclick="leerTexto('texto1')" data-es="▶ Escuchar" data-en="▶ Listen">
+    </button>
+
+    <div class="container">
+        <h3 id="texto1"
+            data-es="Es durante el año 2000 que se inicia la construcción de la Biblioteca Campeche,
+        con la intención de rescatar su estructura.
+        Esta se edifica en el costado norte de la plaza de la independencia del centro histórico, 
+        un inmueble con las mismas proporciones que ocupo la casa de cabildo desde el siglo XVIII. 
+        De esta manera, la reconstrucción de la casa de cabildo, es una obra contemporánea en un tejido urbano antiguo, 
+        que debió atenerse a la organización urbana preexistente, respetando el parcelario histórico en el entorno circundante del ambiente urbano."
+            data-en="Construction of the Campeche Library began in 2000,
+with the intention of rescuing its structure.
+It was built on the north side of the Plaza de la Independencia in the historic center,
+a building with the same proportions that had been the seat of the town council since the 18th century.
+Thus, the reconstruction of the town council is a contemporary project within an old urban fabric,
+which had to adhere to the pre-existing urban layout, respecting the historic plot layout in the surrounding urban environment.">
+        </h3>
+
+
+    </div>
+
+    <div class="imagenes">
+        <img src="img/Aduana_Nautica/Aduana3.jpeg">
+        <img src="img/Aduana_Nautica/Aduana2.jpeg">
+
+    </div>
+
+    <br><br>
+
+</body>
+<script src="script.js"></script>
+
+</html>
